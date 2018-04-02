@@ -1,0 +1,25 @@
+v1.0
+
+-got rid of inRound vector
+-added inRound as a member variable of Player
+-added loop for betting so players input only valid bets
+-added handString member variable of Player.  Used for hand evaluation
+
+v1.1
+
+-merged Mac's and A.Su's code into A.Dunn's code
+
+v1.2
+
+-added Cactus Kev's and Paul Senzee's code to evaluate a hand
+-added dealer position
+-added parameters to showdown() to save revealed players & cards
+-added pot distribution
+-added function to reveal cards to other ai
+-fixed folding bugs
+
+v2.0
+
+-moved everything to a class
+-added a new game mode
+-aesthetics on human player

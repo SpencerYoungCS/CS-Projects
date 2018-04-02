@@ -1,0 +1,19 @@
+Are you a mammal?
+Are you bigger than a cat?
+Kangaroo
+NULL
+NULL
+Mouse
+NULL
+NULL
+Do you live underwater?
+Trout
+NULL
+NULL
+sadas
+n
+NULL
+NULL
+Robin
+NULL
+NULL
