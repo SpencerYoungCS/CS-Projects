@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\organism.o
+./release\ants.o
+./release\doodlebugs.o
+./release\world.o
+./release\wall.o
+./release\glwidget.o
+./release\coord.o
+./release\mygui.o
+./release\virus.o
+./release\moc_glwidget.o
+./release\moc_mygui.o
+);
