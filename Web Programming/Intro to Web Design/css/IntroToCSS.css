@@ -1,0 +1,47 @@
+﻿body{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+
+h1 {
+    /*width: 50%;*/
+    border: 1px solid black;
+    padding: 50px 0 100px 20px;
+   /*top right bottom left (clockwise)*/ 
+
+}
+
+.odd{ 
+    background-color: lightgray;
+}
+
+p.even{
+    background-color:aqua;
+}
+
+#mainHeading{
+    color:grey;
+    font-size: 10em;
+}
+
+.warning{
+    color:red;
+    background-color:yellow;
+    text-align:center;
+}
+
+h1 em{
+    /*not h1.em because em wasnt a class*/
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+p{
+    /*display: inline;*/
+}
+
+p em{
+    font-weight:bold;
+}

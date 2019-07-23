@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <h1>Club Registration</h1>
+
+
+    <!--get method just puts everything into the url data (information you want to access regularly-->
+    <!--post method hides it (sensitive information)-->
+    <form action="http://albertcervantes.com/form-submit.php" method="get">
+        <label for="textboxName">Name:</label>
+        <input type="text" id="textboxName" name="name" placeholder="Enter your full name">
+        <!-- add value attribute to pre-populate the text box -->
+
+        <br>
+
+        <label for="textboxEmail">E-Mail:</label>
+        <input type="text" id="textboxEmail" name="email" placeholder="Enter your email">
+
+        <br>
+
+        <label for=" textboxPassword1">Password:</label>
+        <input type="password" id="textboxPassword1" name="password1" placeholder="Enter your Password">
+
+        <br>
+
+        <label for=" textboxPassword2">Re-Enter your Password:</label>
+        <input type="password" id="textboxPassword2" name="password2" placeholder="Enter your Password">
+
+
+        <br>
+
+        <label for="textboxTelephone">Phone Number:</label>
+        <input type="text" id="textboxTelephone" name="telephone" placeholder="###-###-####">
+
+        <br>
+
+        <h3>Interests <small>(Check all that apply)</small></h3>
+        <input type="checkbox" name="interests" value="photography" />  Photography <br />
+        <input type="checkbox" name="interests" value="Music" />  Music <br />
+        <input type="checkbox" name="interests" value="Sports" />  Sports <br />
+        <input type="checkbox" name="interests" value="Food" />  Food <br />
+        <input type="checkbox" name="interests" value="Gaming" />  Gaming <br />
+
+        <h3>Preferred Meeting Time</h3>
+        <input type="radio" name="meetingTime" value="AM" checked  /> Morning <br />
+        <input type="radio" name="meetingTime" value="PM" /> Evening <br />
+        <!--Browser knows to choose 1 based on the name checked is to make it defaultly checked-->
+
+        <h3>How'd you hear about us?</h3>
+        <select name="reference">
+            <option value="1">Fred</option>
+            <option value="2">Jeff</option>
+            <option value="3">Radio</option>
+
+        </select>
+
+        <h3>About You</h3>
+        <p>Tell us a aittle bit about yourself</p>
+        <textarea placeholder="Enter your story..." name="aboutme" rows="10"></textarea>
+
+        <input type="submit" name="submitButton" value="Send to Albert Site" />
+
+    </form>
+
+</body>
+</html>
