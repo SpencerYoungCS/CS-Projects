@@ -1,0 +1,48 @@
+//Chapter 4: Functions
+           
+#1. double LitersToGallons(double liters)
+       double MilesPerGallons(double gallons, int gallons)
+
+#2. double CompareMPG(double MilesPerGallon, double MilesPerGallon)
+
+#3. double PriceofOneStock(int dollar, int numerator, int denominator)
+
+#4. double inflationrate(double year1price, double year2price)
+
+#5  double estimatedprice (double year1price, double inflationflationrate)
+
+#6. double interest(double initialbalance, int double interestrate, int months)
+double balancedue (int initialbalance, double interest)
+double interestdue(double interest, int  initialbalance, int months)
+
+#7. double gravitationalattractiveforece(double mass1, double mass2, double distance)
+double gravTodyne(double gravitationalattractiveforce, int seconds)
+
+#8. int cost(int mortagage cost, int initialloan)
+double taxrate(const taxrate, double payments)
+
+#9. hatsize(double weight, double height)
+jacketsize (double height, double weight)
+waistsize(double weight)
+
+#10 jacketsize (double height, double weight, const years)
+waistsize(double weight, const years)
+
+#11. int abs(int num1)
+long abs(int num1)
+float abs (int num1)
+double abs (int num1)
+
+#12. int max( int num1, int num2)
+int max(int num1,int num2, int num3)
+
+#13. char translate (int num1)
+
+#14. double caloriesrequired(double weight, int intensitiy)
+
+#15. double changeneeded(int moneyinsterted, int totalneeded)
+double changeincoins(int totalneeded)
+
+#16.  int computerDifference(int starthour, int startminute, int futurehour, int futureminute, bool am1, bool am2)
+
+#17. bool containsDigit(int number, int digit)

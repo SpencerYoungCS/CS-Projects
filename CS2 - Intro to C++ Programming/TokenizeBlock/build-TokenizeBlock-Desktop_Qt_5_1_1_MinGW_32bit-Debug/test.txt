@@ -1,0 +1,7 @@
+test #4
+#1) eval double integral where region is described 15.3
+#2) double int polar area 15.4
+#3) thinking question triple integral thining question.
+#4) triple integral cartesian to spherical 15.9
+#5) triple integral spherical no conversion
+#6) double integra transformation.
